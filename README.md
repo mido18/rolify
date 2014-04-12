@@ -39,6 +39,18 @@ First, create your Role model and migration file using this generator:
 rails g rolify Role User
 ```
 
+if you use rolify inside eninge your generator:
+
+```
+rails g rolify Role User engine
+```
+
+if your user model have devise dependency then your generator:
+
+```
+rails g rolify Role User engine devise
+```
+
 **NB** for versions of Rolify prior to 3.3, use:
 
 ```
